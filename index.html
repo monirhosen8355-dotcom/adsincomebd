@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinRush Rewards | Cyberpunk Earning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-container" id="bg-animation"></div>
+
+    <div class="app-container">
+        <!-- Header / Balance -->
+        <header>
+            <div class="logo">COIN<span>RUSH</span></div>
+            <div class="balance-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png" alt="coin" class="coin-icon">
+                <span id="coin-count">1250</span>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="glow-text">NEON REWARDS</h1>
+            <p>Watch. Spin. Dominate the Leaderboard.</p>
+            
+            <div class="main-cta">
+                <button id="watch-ad-btn" class="huge-btn">
+                    <i class="fas fa-play-circle"></i>
+                    <span>WATCH AD & EARN</span>
+                    <small>+100 - 500 Coins</small>
+                </button>
+            </div>
+        </section>
+
+        <!-- Spin Wheel Section -->
+        <section class="wheel-section">
+            <h2 class="section-title">LUCKY SPIN</h2>
+            <div class="wheel-wrapper">
+                <div class="wheel-pointer"></div>
+                <div class="wheel" id="wheel">
+                    <div class="segment" style="--i:1; --clr:#6200ea;"><span>50</span></div>
+                    <div class="segment" style="--i:2; --clr:#00e5ff;"><span>100</span></div>
+                    <div class="segment" style="--i:3; --clr:#6200ea;"><span>500</span></div>
+                    <div class="segment" style="--i:4; --clr:#00e5ff;"><span>0</span></div>
+                    <div class="segment" style="--i:5; --clr:#6200ea;"><span>JACKPOT</span></div>
+                    <div class="segment" style="--i:6; --clr:#00e5ff;"><span>200</span></div>
+                    <div class="segment" style="--i:7; --clr:#6200ea;"><span>TRY AGAIN</span></div>
+                    <div class="segment" style="--i:8; --clr:#00e5ff;"><span>150</span></div>
+                </div>
+                <button id="spin-btn">SPIN NOW</button>
+            </div>
+        </section>
+
+        <!-- Daily Bonus -->
+        <section class="daily-bonus">
+            <div class="bonus-card" id="claim-box">
+                <i class="fas fa-box-open chest-icon"></i>
+                <div class="bonus-info">
+                    <h3>Daily Mystery Box</h3>
+                    <p id="timer">Available in 14:25:01</p>
+                </div>
+                <button class="claim-btn">CLAIM</button>
+            </div>
+        </section>
+
+        <!-- Leaderboard -->
+        <section class="leaderboard">
+            <h2 class="section-title">TOP RUNNERS</h2>
+            <div class="leaderboard-list">
+                <div class="rank-item">
+                    <span class="rank">1</span>
+                    <span class="user">Alex_Neon</span>
+                    <span class="pts">52,400</span>
+                </div>
+                <div class="rank-item">
+                    <span class="rank">2</span>
+                    <span class="user">ZeroKool</span>
+                    <span class="pts">48,210</span>
+                </div>
+                <div class="rank-item">
+                    <span class="rank">3</span>
+                    <span class="user">ShadowByte</span>
+                    <span class="pts">44,000</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2024 COINRUSH REWARDS | SYSTEM ONLINE</p>
+            <div class="neon-line"></div>
+        </footer>
+    </div>
+
+    <!-- Reward Popup -->
+    <div id="reward-popup" class="popup hidden">
+        <div class="popup-content">
+            <h2 id="reward-msg">+250 COINS</h2>
+            <button onclick="closePopup()">AWESOME!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://pl29533201.effectivecpmnetwork.com/9f/5d/61/9f5d615748d01366b4eb874c8bd72012.js"></script>
+</body>
+</html>
